@@ -1,0 +1,98 @@
+@media screen and (max-width:1240px){
+    .card-ctt{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:1060px){
+    .card-ctt{
+        width: 230px;
+        height: 230px;
+    }
+}
+@media screen and (max-width:1050px){
+    .artigo{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+}
+    @media screen and (max-width:850px){
+        .card-ctt{
+            width: 200px;
+            height: 200px;
+        
+        }
+        #email-txt{
+            position: relative;
+            right: 10px;
+        }
+       }
+       @media screen and (max-width:500px){
+        .artigo{
+            margin-bottom: 200px;
+        }
+        .pg1-card{
+           font-size: small;
+        }
+       
+       }
+       @media screen and (max-width:270px){
+        .card-ctt{
+            width: 150px;
+            height: 150px;
+            margin-top: 50px;
+            
+        }
+        .pg1-card{
+            font-size: x-small;
+        
+        
+           
+        }
+        
+        @media screen and (max-width:240px){
+            .card-ctt{
+                width: 130px;
+                height: 130px;
+              
+                margin-top: 65px;
+            }
+            #email-txt{
+                overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  right: 10px;
+            }
+
+        }
+       }
+       @media screen and (max-width:214px){
+        #email-txt{
+            position: relative;
+            left: 10px;
+            
+            
+        }
+       .pg1-card strong{
+        position: relative;
+        top: 12px;
+        right: 75px;
+       }
+       }
+       @media screen and (max-width:200px){
+        .card-ctt{
+            margin-top: 80px;
+            width: 110px;
+            height: 110px;
+            
+            
+        }
+        .artigo{
+            margin-top: 0;
+            margin-bottom: 300px;
+        }
+       }
+    
+

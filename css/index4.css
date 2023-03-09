@@ -1,0 +1,157 @@
+@font-face {
+    font-family:'Inter';
+    src: url('/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+body{
+    font-family:'Inter', sans-serif;
+    background-image: linear-gradient(90deg, rgb(21, 20, 53), rgb(2, 2, 32));
+}
+.img{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.img img{
+    display: flex;
+    margin: auto;
+}
+label{
+    display: block;
+}
+span#burguer{
+    display: block;
+    position: relative;
+    bottom: 65px;
+    float: right;
+    color: white;
+}
+.lista-burguer{  
+   border-radius: 15px;
+   display: none;
+   background-color: rgba(83, 81, 81, 0.849);
+   height: 180px;
+   position: absolute;
+   top: 20px;
+   left: 101%;
+}
+input[type="checkbox"]:checked ~ .lista-burguer
+{
+    transform: translateX(-115%);
+    display: block;
+}
+.lista-burguer ul{
+    width: 120px;
+    list-style-type: block;
+    border-radius: 30px;
+
+}
+.lista-burguer li{
+    margin-top: 5px;
+    border-radius: 30px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    color: white;
+}
+.lista-burguer li:hover{
+    border: 1px solid #180f4a;
+    background-color:  #222245;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.2s;    
+}
+.lista-burguer a{
+    text-decoration: none;
+    height: 50px;
+    
+}
+input{
+    display: none;
+}
+.habilidade{
+    text-align: center;
+    margin-top: 100px;
+}
+.texto-habilit{
+    color: rgb(36, 35, 119);
+    background-image:linear-gradient(to right, rgba(46, 46, 75, 0.647),  rgba(46, 46, 75, 0));
+    font-size: xx-large;
+    
+}
+.pg{
+    color: white;
+    font-size: xx-large;
+    
+}
+mark{
+    background-color:  #242377;
+    color: white;
+}
+.pai-cards{
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 100px;
+}
+.cards{
+    width: 300px;
+    height: 100px;
+    background-color: #222245;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.cards:hover{
+    background-color: #242377;
+    transform: scale(1.1);
+    transition: all 0.2s;    
+}
+.cards h1:hover{
+   text-decoration: underline;
+}
+.cards img{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 64px;
+    height: 64px;
+}
+.cards h1{
+    text-transform: uppercase;
+    color: white;
+    padding-left: 20px;
+}
+.botao a{
+    text-decoration: none;
+    color: white;
+}
+.botao{
+    margin: auto;
+    background-color: #222245;
+    width: 80px;
+    height: 40px;
+    border-radius: 150px;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+}
+.botao:hover{
+    background-color: #242377;
+}
+.links{
+    text-decoration: none;
+}

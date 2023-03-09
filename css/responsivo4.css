@@ -1,0 +1,66 @@
+@media screen and (max-width:950px) {
+     .pai-cards{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+     }
+     .cards{
+        display: flex;
+        margin: auto;
+        margin-bottom: 20px;
+     }
+}
+@media screen and (max-width:660px){
+    .img{
+        background-image: linear-gradient(90deg, rgb(21, 20, 53), rgb(2, 2, 32));
+    }
+}
+@media screen and (max-width:340px){
+    .cards{
+        display: block;
+        width: 100px;
+        height: 150px;
+    }
+    .cards h1
+      {  text-transform: uppercase;
+        color: white;
+        padding-left: 20px;}
+    .cards strong{
+        position: relative;
+        top: 21px;
+        right: 75px;
+    }
+    .cards-img{
+        padding-left: 5px;
+        padding-top: 10px ;
+
+    }
+    #img-java{
+        padding-left: 5px;
+    }
+    .txt-html{
+        position: relative;
+        right: 5px;
+    }
+    .txt-css{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        position: relative;
+        left: 2px;
+    }
+    #js{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width:260px) {
+    .pg{
+        font-size: x-small;
+    }
+    .texto-habilit{
+        font-size: small;
+    }
+}

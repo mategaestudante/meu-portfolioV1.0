@@ -1,0 +1,25 @@
+@media screen and (max-width:300px)
+  {  .caixa-sobre .texto-sobre{ 
+        font-size: x-large;
+        color: rgb(36, 35, 119);
+        background-image:linear-gradient(to right, rgba(46, 46, 75, 0.647),  rgba(46, 46, 75, 0));
+    }
+    .caixa-sobre .pg-sobre{
+        font-size: x-large;
+        color: rgb(210, 207, 207);
+    }
+    
+  }
+  @media screen and (max-width: 200px){
+    
+
+    .caixa-sobre .texto-sobre{ 
+        font-size: large;
+        color: rgb(36, 35, 119);
+        background-image:linear-gradient(to right, rgba(46, 46, 75, 0.647),  rgba(46, 46, 75, 0));
+    }
+    .caixa-sobre .pg-sobre{
+        font-size: large;
+        color: rgb(210, 207, 207);
+    }
+  }

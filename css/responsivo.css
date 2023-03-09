@@ -1,0 +1,131 @@
+@media screen and (max-width:1106px){
+    section{
+        display: block;
+    }
+    .foto{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:1084px){
+    .foto{
+        flex: 0;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media screen and (max-width:950px){
+    .nav-menu{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+    .nav-logo{
+        text-align: center;
+    }
+    label{
+        display: block;
+    }
+    span#burguer{
+        display: block;
+    }
+    .lista-burguer{
+        display: block;
+    }
+}
+@media screen and (max-width:636px){
+    .foto img{
+        width: 424px;
+        height: 424px;
+    }
+}
+@media screen and (max-width:440px){
+    .foto img{
+        width: 324px;
+        height: 324px;
+    }
+    section{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:335px){
+    .foto img{
+        width: 224px;
+        height: 224px;
+    }
+}
+@media screen and (max-width:270px){
+    footer span .Matheus-footer{padding-left: 2px;
+    font-size: small;
+    font-weight: 500;
+    }
+    footer p{
+        font-size: small;
+    }
+    .foto img{
+        width: 124px;
+        height: 120px;
+    }
+    .sobre-mim .pg1-sobre{
+        font-size: x-large;
+        color: rgb(36, 35, 119);
+    }
+    .sobre-mim .titulo-sobre{
+        font-size: x-large;
+        color: white;
+    }
+    .sobre-mim .pg2-sobre{
+        font-size: x-large;
+        color: rgb(36, 35, 119);
+        background-image:linear-gradient(to right, rgba(46, 46, 75, 0.647),  rgba(46, 46, 75, 0));
+    }
+    .sobre-mim .pg3-sobre{
+        font-size:x-large;
+        color: rgb(210, 207, 207);
+        
+    }
+    .foto img{
+        display: none;
+    }
+}
+@media screen and (max-width:215px){
+    span#burguer{
+       
+        position: relative;
+        bottom: 80px;
+    
+    }
+    footer span{
+        display: flex;
+        margin: none;
+        align-items: none;
+        text-align: none;
+    }
+    footer .Matheus-footer{
+        font-size: small;
+
+    }
+    footer p{
+        font-size: small;
+    }
+}
+@media screen and (max-width:190px){
+    .sobre-mim .pg1-sobre{
+        font-size: large;
+        color: rgb(36, 35, 119);
+    }
+    .sobre-mim .titulo-sobre{
+        font-size: large;
+        color: white;
+    }
+    .sobre-mim .pg2-sobre{
+        font-size: large;
+        color: rgb(36, 35, 119);
+        background-image:linear-gradient(to right, rgba(46, 46, 75, 0.647),  rgba(46, 46, 75, 0));
+    }
+    .sobre-mim .pg3-sobre{
+        font-size:large;
+        color: rgb(210, 207, 207);
+        
+    }
+}
